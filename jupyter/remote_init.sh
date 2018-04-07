@@ -1,6 +1,6 @@
 # Installing Miniconda
-wget -c http://repo.continuum.io/miniconda/Miniconda-latest-Linux-x86_64.sh
-bash Miniconda-latest-Linux-x86_64.sh -b -p /home/ubuntu/miniconda
+wget -c http://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
+bash Miniconda3-latest-Linux-x86_64.sh -b -p /home/ubuntu/miniconda
 export PATH=/home/ubuntu/miniconda/bin:$PATH
 
 #Installing neccesary libraries
@@ -15,13 +15,3 @@ git clone https://aborisihin:alpine1560l@bitbucket.org/aborisihin/mlda_learn.git
 cd ./mlda_learn
 git checkout develop
 cd ./..
-
-ipython profile create nbserver
-
-printf "\n# Configuration file for ipython-notebook.\n
-c = get_config()\n
-# Notebook config\n
-c.NotebookApp.password = u'"$1"'\n
-c.NotebookApp.ip = '*'\n
-c.NotebookApp.open_browser = False\n
-c.NotebookApp.port = 8888\n" > ~/.ipython/profile_nbserver/ipython_notebook_config.py
