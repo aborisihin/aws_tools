@@ -1,4 +1,4 @@
-source 'config.txt'
+source 'config'
 
 openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout jupyter.pem -out jupyter.pem -subj "//C=GB\ST=London\L=London\O=Global Security\OU=IT Department\CN=example.com"
 

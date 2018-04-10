@@ -4,7 +4,7 @@ bash Miniconda3-latest-Linux-x86_64.sh -b -p /home/ubuntu/miniconda
 export PATH=/home/ubuntu/miniconda/bin:$PATH
 
 #Installing neccesary libraries
-conda install -y numpy scipy pandas scikit-learn jupyter
+conda install -y numpy scipy pandas scikit-learn matplotlib tqdm jupyter
 
 #Can add whatever you want to install
 sudo apt-get -qq install vowpal-wabbit
