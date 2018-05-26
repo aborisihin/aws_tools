@@ -5,9 +5,10 @@ export PATH=/home/ubuntu/miniconda/bin:$PATH
 
 #Installing neccesary libraries
 conda install -y numpy scipy pandas scikit-learn matplotlib tqdm jupyter
+conda install -y -c conda-forge xgboost
 
 #Can add whatever you want to install
-sudo apt-get -qq install vowpal-wabbit
+#sudo apt-get -qq install vowpal-wabbit
 sudo apt-get -qq install git
 
 #git

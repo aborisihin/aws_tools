@@ -1,12 +1,9 @@
-pemfile='mldacalc_mis.pem'
-remote_host='ec2-18-220-121-26.us-east-2.compute.amazonaws.com'
+pemfile='mldacalc.pem'
+remote_host='ec2-18-188-197-144.us-east-2.compute.amazonaws.com'
 jupyter_password=''sha1:a4a49218bd75:50b8f2bfde50dfc87e0b172cc61292656f975aa3''
 
-data_dest_path='~/mlda_learn/open_data_science/data/kaggle_receipts'
+data_dest_path='~/mlda_learn/open_data_science/data/kaggle_flights'
 
 data_transfer_list=\
-"./../../mlda_learn/open_data_science/data/kaggle_receipts/train.csv \
-./../../mlda_learn/open_data_science/data/kaggle_receipts/train_checks.csv \
-./../../mlda_learn/open_data_science/data/kaggle_receipts/test.csv \
-./../../mlda_learn/open_data_science/data/kaggle_receipts/test_checks.csv \
-./../../mlda_learn/open_data_science/data/kaggle_receipts/submission_frequency.csv"
+"./../../mlda_learn/open_data_science/data/kaggle_flights/flight_delays_train.csv \
+./../../mlda_learn/open_data_science/data/kaggle_flights/flight_delays_test.csv"
